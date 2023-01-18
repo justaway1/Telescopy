@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px) {
+   .custom-ul {
+    align-items: center;
+    justify-content: center;
+   } 
+
+   .custom-ul li {
+    margin-bottom: 19px;
+   }
+
+   .custom-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+}

@@ -1,0 +1,13 @@
+.custom-nav {
+    background-color: rgb(10, 189, 238);
+}
+
+img {
+    object-fit: cover;
+
+}
+
+
+ .custom-ul li a {
+    color: #fff;
+ }
