@@ -39,6 +39,7 @@ body {
 .custom-carousel-title {
     font-size: 3rem;
     margin-bottom: 20px;
+    font-weight: bolder;
 }
 
 .carousel-button {
