@@ -97,3 +97,49 @@ body {
 .icon-stuff p {
     font-size: 0.9rem;
 }
+
+/* ABOUT SECTION */
+
+.custom-about-section {
+    margin: 100px 0;
+}
+
+.custom-about-row {
+    height: 300px;
+}
+
+.custom-about-row .girl-image {
+    box-shadow: 0px 80px 0px rgba(128, 128, 128, 0.114);
+    object-fit: cover;
+}
+
+.custom-about-row-boy .boy-image {
+    box-shadow: 0px -80px 0px rgba(128, 128, 128, 0.114);
+}
+
+.custom-about-row-boy {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.info-shop {
+    margin-top: auto;
+    padding-bottom: 10px;
+    border-bottom: 3px solid var(--second-color);
+}
+
+.info-shop h3{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+
+}
+
+.info-shop p {
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.742);
+    margin-bottom: 30px;
+}
+

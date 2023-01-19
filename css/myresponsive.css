@@ -4,6 +4,10 @@
    .custom-indicators {
       margin-top: 50px;
    }
+
+   .custom-hero {
+      margin-bottoM: 50px;
+   }
 }
 
 
@@ -16,6 +20,8 @@
    .custom-ul li {
     margin-bottom: 19px;
    }
+
+   
 
    .custom-social {
     display: flex;
