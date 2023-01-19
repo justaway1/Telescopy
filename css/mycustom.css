@@ -1,13 +1,52 @@
-.custom-nav {
-    background-color: rgb(10, 189, 238);
+
+:root {
+    --second-color: #084298;
 }
 
-img {
+.custom-carousel-image {
+    position: relative;
     object-fit: cover;
+    height: 90vh;
+    width: 100%;
+    filter:brightness(50%);
+
+}
+
+body {
+    font-family: 'Cardo', sans-serif;
+    font-size: 62.5%;
+}
+
+.custom-carousel {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    color: #fff;
 
 }
 
 
- .custom-ul li a {
+.custom-description {
+    width: 50%;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.carousel-content {
+    width: 100%;
+}
+
+.custom-carousel-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.carousel-button {
+    background-color: var(--second-color);
     color: #fff;
- }
+}
+
+.carousel-button:hover {
+    background-color: #052e6c;
+}
+
