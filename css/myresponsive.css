@@ -1,17 +1,5 @@
 
-@media only screen and (min-width: 630px) {
-
-   .custom-indicators {
-      margin-top: 50px;
-   }
-
-   .custom-hero {
-      margin-bottoM: 50px;
-   }
-}
-
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
    .custom-ul {
     align-items: center;
     justify-content: center;
@@ -20,8 +8,6 @@
    .custom-ul li {
     margin-bottom: 19px;
    }
-
-   
 
    .custom-social {
     display: flex;
@@ -41,4 +27,13 @@
       font-size: 1.2rem;
       width: 100%;
    }
+
+   .info-shop {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   
 }
