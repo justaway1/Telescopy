@@ -51,13 +51,26 @@ body {
     background-color: #052e6c;
 }
 
-.custom-ul li:hover a {
-    color: #fff;
+.custom-brand {
+    color: black;
 }
 
-.custom-navbar {
-    background-color: rgb(68, 67, 67);
+.custom-brand:hover {
+    color: var(--second-color);
 }
+.custom-nav {
+    background-color: #fff;
+
+}
+
+.custom-nav ul li a {
+    color: black;
+}
+
+.custom-nav ul li a.active {
+    color: white;
+}
+
 
 .icon-stuff {
     display: flex;
