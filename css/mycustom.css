@@ -143,3 +143,26 @@ body {
     margin-bottom: 30px;
 }
 
+/* END FOR ABOUT ME! */
+
+/* START OF TOP SALES */
+
+.top-sales {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+
+
+.custom-sales-row {
+    height: 400px;
+    max-width: 350px;
+    width: 100%;
+}
+
+.custom-sales-row img{
+    object-fit: cover;
+}
