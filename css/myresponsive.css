@@ -1,4 +1,23 @@
 
+
+@media only screen and (max-width: 1050px) {
+
+   .custom-sales-row:last-of-type {
+      margin-top: 100px;
+   }
+   .top-sales-header {
+      display: flex;
+      margin: 0 auto;
+   }
+}
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 768px) {
    .custom-ul {
     align-items: center;
@@ -34,6 +53,14 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+   }
+
+   .custom-sales-row:nth-child(3) {
+      margin-top: 110px;
+   }
+
+   .custom-sales-row:nth-child(1) {
+      margin-bottom: 110px;
    }
    
 }
