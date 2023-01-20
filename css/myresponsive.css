@@ -74,5 +74,20 @@
    .myCustomIndicators {
       margin-top: 70px;
    }
+      .custom-card-testimonial {
+         width: 100%;
+      }
 
+      .custom-card {
+         padding: 0 20px;
+      }
+
+      .customer-id,
+      .customer {
+         text-align: center;
+      }
+
+      .custom-avatar {
+         margin-bottom: 5px;
+      }
 }
