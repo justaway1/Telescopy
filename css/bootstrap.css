@@ -5832,7 +5832,7 @@ i:hover {
   justify-content: center;
   width: 15%;
   padding: 0;
-  color: #fff;
+  color: black;
   text-align: center;
   background: none;
   border: 0;
@@ -5915,7 +5915,7 @@ i:hover {
   margin-top: 50px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: black;
   background-clip: padding-box;
   border: 0;
   border-radius: 100%;

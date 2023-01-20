@@ -198,5 +198,52 @@ body {
 }
 
 .new-arrivales {
-    margin-top: 200px;
+    margin: 200px 0 200px 0;
+}
+
+/* TESTIMONIALS */
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.custom-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    border: 5px solid var(--second-color);
+    object-fit: cover;
+}
+
+.avatar-section p {
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.735);
+}
+
+
+.custom-card-testimonial {
+    width: 60vw;
+    margin: 0 auto;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.409);
+}
+
+.avatar-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-control {
+    color: black;
+}
+
+.myCustomIndicators {
+    margin-top: 50px;
 }
