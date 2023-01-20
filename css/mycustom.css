@@ -162,6 +162,7 @@ body {
 
 .tele-info {
     display: flex;
+    margin-top: 10px;
 }
 /* .main-tele-info {
     display: flex;
@@ -194,4 +195,8 @@ body {
 .custom-cart-button {
     background-color: var(--second-color);
     color: #fff;
+}
+
+.new-arrivales {
+    margin-top: 200px;
 }

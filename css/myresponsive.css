@@ -3,11 +3,19 @@
 @media only screen and (max-width: 1050px) {
 
    .custom-sales-row:last-of-type {
-      margin-top: 135px;
+      margin-top: 140px;
    }
    .top-sales-header {
       display: flex;
       margin: 0 auto;
+   }
+
+   .new-arrivales {
+      margin-top: 200px;
+   }
+
+   .arrivales:nth-child(3) {
+      margin-top: 150px;
    }
 }
 
@@ -62,5 +70,5 @@
    .custom-sales-row:nth-child(1) {
       margin-bottom: 140px;
    }
-   
+
 }
