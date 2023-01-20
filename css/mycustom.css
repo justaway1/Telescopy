@@ -245,5 +245,9 @@ body {
 }
 
 .myCustomIndicators {
-    margin-top: 50px;
+    margin-top: 30px;
+}
+
+.description-avatar {
+    line-height: 1.2;
 }

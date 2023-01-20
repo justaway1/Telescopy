@@ -5915,7 +5915,7 @@ i:hover {
   margin-top: 50px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: black;
+  background-color: var(--bs-danger);
   background-clip: padding-box;
   border: 0;
   border-radius: 100%;
