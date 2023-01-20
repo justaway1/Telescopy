@@ -149,8 +149,11 @@ body {
 
 
 .custom-sales-row {
-    height: 300px;
     width: 350px;
+}
+
+.top-sales {
+    height: 100vh;
 }
 
 .custom-sales-row img{
