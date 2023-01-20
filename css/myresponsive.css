@@ -3,7 +3,7 @@
 @media only screen and (max-width: 1050px) {
 
    .custom-sales-row:last-of-type {
-      margin-top: 100px;
+      margin-top: 135px;
    }
    .top-sales-header {
       display: flex;
@@ -56,11 +56,11 @@
    }
 
    .custom-sales-row:nth-child(3) {
-      margin-top: 110px;
+      margin-top: 140px;
    }
 
    .custom-sales-row:nth-child(1) {
-      margin-bottom: 110px;
+      margin-bottom: 140px;
    }
    
 }

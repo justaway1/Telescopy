@@ -190,3 +190,8 @@ body {
     background-color: var(--second-color);
     margin-left: 100px;
 }
+
+.custom-cart-button {
+    background-color: var(--second-color);
+    color: #fff;
+}
