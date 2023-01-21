@@ -149,15 +149,24 @@ body {
 
 
 .custom-sales-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 350px;
+    padding: 30px;
+    border-radius: 4px;
 }
 
 .top-sales {
     margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .custom-sales-row img{
     object-fit: cover;
+    width: 200px;
+    height: 200px;
 }
 
 .tele-info {
@@ -170,7 +179,7 @@ body {
 } */
 
 .tele-info h4 {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     font-weight: bolder;
     margin: 5px 5px 0 0;
 }
@@ -198,7 +207,7 @@ body {
 }
 
 .new-arrivales {
-    margin: 200px 0 200px 0;
+    margin: 50px 0 50px 0;
 }
 
 /* TESTIMONIALS */
@@ -259,14 +268,8 @@ body {
 
 /* START OF FOOTER */
 
-.pictures-grid {
-    display: grid;
-    object-fit: cover;
-    grid-template-columns: repeat(3, 70px);
-    place-items: center;
-    gap: 7px;
-    
-    
+.custom-span {
+    font-size: 0.7rem;
 }
 
 .pictures-grid img {
@@ -276,8 +279,19 @@ body {
     background-color: white;
     padding: 10px;
     border-radius: 3px;
+    margin: 3px;
 }
 
 .pictures-grid img:hover {
     cursor: pointer;
+}
+
+.footer-button {
+    background-color: var(--second-color);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 50%;
+    font-weight: bolder;
+    text-align: center;
 }
