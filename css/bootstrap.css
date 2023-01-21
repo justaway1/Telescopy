@@ -5892,7 +5892,6 @@ i:hover {
   position: absolute;
   top: 80%;
   left: 30%;
-  z-index: 1;
   display: flex;
   justify-content: center;
   padding: 0;
