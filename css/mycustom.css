@@ -295,3 +295,27 @@ body {
     font-weight: bolder;
     text-align: center;
 }
+
+.brand-footer {
+    border-bottom: 2px solid white;
+    width: 75%;
+}
+
+.copyright-stuff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 20px;
+    margin: 0;
+}
+
+.copyright-stuff p{
+    margin: 0;
+
+}
+
+.copyright-stuff span {
+    color: var(--second-color);
+}
